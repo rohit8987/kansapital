@@ -20,8 +20,10 @@ function Section() {
                 </div>
 
                 <div className="relative overflow-hidden group">
+                    <Link href="/productInfo">
                     <Image src="https://res.cloudinary.com/doxwidis4/image/upload/v1729703058/lprsxpxxwhqivb1hjhcc.jpg" width={60} height={60} alt="" className="rounded-md cursor-pointer size-full aspect-square object-cover transition-transform duration-300 ease-in-out group-hover:scale-110" />
                     <span className="absolute bottom-5 text-center w-full text-white text-lg truncate font-semibold tracking-wide"> Brass Patili</span>
+                    </Link>
                 </div>
             </div>
             <div className="py-16">
