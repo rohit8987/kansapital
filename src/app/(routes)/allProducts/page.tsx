@@ -96,35 +96,9 @@ const AllProduct = () => {
   const displayedProducts = products.slice(0, 10);
 
   return (
-    <>
-      <div className="w-full mt-10">
-        <h1 className="text-4xl text-center">All Products</h1>
-      </div>
-
-      <div className="products-grid grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-6 px-20">
-        {displayedProducts.map((product) => (
-          <div key={product.id} className="product-card  hover:shadow-lg transition group gap-6 ">
-            {/* Product Image */}
-            <div className="w-full h-80">
-              <Image 
-                src={product.image} 
-                alt={product.name} 
-                width={200} // Set width for image
-                height={200} // Set height for image
-                className="object-contain w-full h-full rounded-md cursor-pointer size-full aspect-square  transition-transform duration-300 ease-in-out group-hover:scale-110" 
-              />
-            </div>
-            <h4 className="text-lg font-bold mt-4">{product.name}</h4>
-            <p className="text-gray-600 mt-1">₹{product.price}</p>
-            <button className="mt-3 w-full bg-black text-white py-2 hover:bg-gray-800 transition cursor-pointer">
-           <Link href="/allProducts" className="w-full h-full flex justify-center items-center">View Product
-            </Link>
-            </button>
-            
-          </div>
-        ))}
-      </div>
-    </>
+    <main className="pt-16">
+      <h1>Hello</h1>
+    </main>
   );
 };
 
